@@ -1,0 +1,108 @@
+.chef-team {
+	padding: 5rem 0;
+}
+
+.chef-data {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: #000000;
+	border-top-right-radius: 10rem;
+	border-top-left-radius: 10rem;
+	position: relative;
+	height: 28rem;
+	width: 20rem;
+	overflow: hidden;
+}
+
+.div-image {
+	position: absolute;
+	bottom: 0;
+	left: -10px;
+
+	width: 100px;
+	height: 100px;
+	z-index: 2;
+}
+
+.div-image-one {
+	position: absolute;
+	top: 0;
+	right: 0;
+	max-width: 100%;
+	width: 50rem;
+}
+
+.div-image-two {
+	position: absolute;
+	bottom: 0;
+	left: -60px;
+
+	width: 150px;
+	height: 150px;
+	z-index: 2;
+}
+
+.chef-image img {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	bottom: 0;
+	transform: translateX(-50%);
+	width: 100%;
+	/* Control the image height to ensure it fits within the container */
+	/* Ensures the image covers the space while maintaining aspect ratio */
+}
+
+.chef-details {
+	position: absolute;
+	bottom: 0;
+	background: #fff;
+	padding: 1rem;
+	z-index: 1;
+	width: 100%;
+	text-align: center;
+}
+
+.social-icons {
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+	position: absolute;
+	left: 2rem;
+	top: 2rem;
+	z-index: 3;
+}
+
+.social-icons {
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	right: -50px; /* Start off-screen to the right */
+	display: flex;
+	gap: 10px;
+	opacity: 0; /* Initially hidden */
+	transition: right 0.5s ease-in-out, opacity 0.5s ease-in-out; /* Slide in and fade in */
+}
+
+.chef-data:hover .social-icons {
+	right: 10px; /* Move into view when hovering */
+	opacity: 1; /* Make visible when hovering */
+}
+
+.social-icons svg {
+	font-size: 35px;
+	background-color: #fa8507;
+	padding: 10px;
+	border-radius: 50%;
+	color: #fff;
+	cursor: pointer;
+
+	transition: transform 0.3s ease;
+}
+
+.social-icons svg:hover {
+	transform: scale(1.2); /* Slightly enlarge icon on hover */
+}

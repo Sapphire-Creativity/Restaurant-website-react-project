@@ -1,0 +1,66 @@
+/* Inner glowing cursor */
+.custom-cursor {
+	position: fixed;
+	width: 14px;
+	height: 14px;
+	background:#fa8507;
+	border-radius: 50%;
+	pointer-events: none;
+	transform: translate(-50%, -50%);
+	z-index: 9999;
+	box-shadow: 0 0 8px #fa8507;
+	transition: transform 0.15s ease;
+}
+
+/* Outer border */
+.custom-cursor-border {
+	position: fixed;
+	width: 30px;
+	height: 30px;
+	border: 1px solid #fa8507;
+	border-radius: 50%;
+	pointer-events: none;
+	transform: translate(-50%, -50%);
+	z-index: 9998;
+	transition: transform 0.15s ease, border-color 0.15s ease;
+}
+
+/* Click animation for the inner cursor */
+.custom-cursor.click {
+	animation: click-animation 0.2s ease;
+}
+
+@keyframes click-animation {
+	0% {
+		transform: translate(-50%, -50%) scale(1);
+		box-shadow: 0 0 8px #fa8507;
+	}
+	50% {
+		transform: translate(-50%, -50%) scale(0.8);
+		box-shadow: 0 0 12px #fa8507;
+	}
+	100% {
+		transform: translate(-50%, -50%) scale(1);
+		box-shadow: 0 0 8px#fa8507;
+	}
+}
+
+/* Click animation for the outer border */
+.custom-cursor-border.click-border {
+	animation: click-border-animation 0.2s ease;
+}
+
+@keyframes click-border-animation {
+	0% {
+		transform: translate(-50%, -50%) scale(1);
+		border-color: #fa8507;
+	}
+	50% {
+		transform: translate(-50%, -50%) scale(0.8);
+		border-color: #fa8507;
+	}
+	100% {
+		transform: translate(-50%, -50%) scale(1);
+		border-color: #fa8507;
+	}
+}

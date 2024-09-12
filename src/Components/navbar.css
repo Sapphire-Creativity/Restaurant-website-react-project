@@ -1,0 +1,117 @@
+.navbar {
+	width: 100vw;
+	left: 0;
+	top: 0;
+	right: 0;
+	display: flex; /* Flexbox for layout */
+	justify-content: space-between; /* Space between elements */
+	align-items: center; /* Align items vertically */
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Shadow for depth */
+	z-index: 1000; /* Ensure it stays above other content */
+	background: #f8f8f8;
+	box-shadow: -6px 10px 15px rgba(0, 0, 0, 0.2);
+	padding: 1rem 1.4rem;
+	position: fixed;
+}
+
+.nav-links {
+	display: flex;
+}
+
+.nav-links li a {
+	color: #1d1d1d;
+	margin: 1.5rem;
+	transition: 0.5s ease-in;
+}
+
+.nav-links li a:hover {
+	color: #fa8507;
+}
+
+.toggle-btn {
+	font-size: 1rem;
+	color: #fff;
+	display: none;
+	background: black;
+	padding: 0.8rem;
+	transition: 0.5s ease-in;
+	border-radius: 100%;
+}
+
+.toggle-btn:hover {
+	background: #fa8507;
+}
+
+@media screen and (max-width: 1000px) {
+	.toggle-btn {
+		display: inline-block;
+	}
+
+	.nav-links {
+		position: absolute;
+		top: 100%;
+		right: 3rem;
+		flex-direction: column;
+		gap: 0;
+		border-radius: 5px;
+	}
+
+	.nav-links li {
+		height: 5rem;
+		width: 100%;
+		animation: navAnimation 600ms ease forwards;
+		transform: rotateX(100deg);
+		opacity: 0;
+		transform-origin: top;
+	}
+
+	.nav-links li a {
+		background-color: #fa8507;
+		color: #ffff;
+		height: 100%;
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding: 1rem 5rem 1rem 3rem;
+	}
+
+	.nav-links li a:hover {
+		color: #c9c9c9;
+	}
+
+	.show-nav {
+		display: flex;
+	}
+
+	.hide-nav {
+		display: none;
+		transition: 0.6s ease;
+	}
+
+	.nav-links li:nth-child(2) {
+		animation-delay: 200ms;
+	}
+	.nav-links li:nth-child(3) {
+		animation-delay: 400ms;
+	}
+	.nav-links li:nth-child(4) {
+		animation-delay: 600ms;
+	}
+	.nav-links li:nth-child(5) {
+		animation-delay: 800ms;
+	}
+	.nav-links li:nth-child(6) {
+		animation-delay: 1s;
+	}
+	.nav-links li:nth-child(7) {
+		animation-delay: 2s;
+	}
+
+	@keyframes navAnimation {
+		to {
+			transform: rotateX(0);
+			opacity: 1;
+		}
+	}
+}
