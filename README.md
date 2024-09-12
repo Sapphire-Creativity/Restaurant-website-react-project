@@ -34,9 +34,9 @@ A modern and fully responsive restaurant website built using React and Tailwind 
 - ✉️ Contact Form: Allows visitors to submit messages directly from the website.
 
 
-##👨‍💻 About the Developer
+## 👨‍💻 About the Developer
 
-![Johnpeter's Profile Picture](web%20banner%202.png)
+![](web%20banner%202.png)
 Johnpeter is a creative Website Designer and Frontend Developer passionate about building innovative and visually appealing websites. His expertise spans across web design, responsive development, and user experience, ensuring that every project is not only functional but aesthetically pleasing.
 
 🌍 Connect with Johnpeter:
