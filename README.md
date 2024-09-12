@@ -10,7 +10,7 @@ A modern and fully responsive restaurant website built using React and Tailwind 
 - [🔧 Firebase Setup](#-firebase-setup)
 - [🚀 Usage](#-usage)
 - [🤝 Contributing](#-contributing)
-- [📜 License](#-license)
+- [📜 About the Developer](#-about-the-developer)
 
 ## ✨ Features
 - 🖼️ 8 Pages: Displays the the following pages: [Home, About, Services, Shop, Reservation, Contact, Sign-in, Sign-up].
@@ -33,11 +33,13 @@ A modern and fully responsive restaurant website built using React and Tailwind 
 - 🚪 Logout: Users can securely log out of their accounts.
 - ✉️ Contact Form: Allows visitors to submit messages directly from the website.
 
-## 🤝 Contributing
-Contributions are welcome! Here’s how you can contribute:
-1. 🍴 Fork this repository.
-2. 🌿 Create a new branch (`git checkout -b feature/your-feature`).
-3. 💡 Commit your changes (`git commit -m 'Add some feature'`).
-4. 📤 Push to the branch (`git push origin feature/your-feature`).
-5. 🔁 Open a Pull Request.
 
+##👨‍💻 About the Developer
+
+![Johnpeter's Profile Picture](web%20banner%202.png)
+Johnpeter is a creative Website Designer and Frontend Developer passionate about building innovative and visually appealing websites. His expertise spans across web design, responsive development, and user experience, ensuring that every project is not only functional but aesthetically pleasing.
+
+🌍 Connect with Johnpeter:
+- [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/johnpeter-izuchukwu-22b33923b)
+- [![Instagram](https://img.shields.io/badge/Instagram-E4405F?logo=instagram&logoColor=white)](https://www.instagram.com/sapphire_creativity?igsh=ZnQxcHRnbmZmNXh1)
+- [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?logo=twitter&logoColor=white)](https://x.com/JOHNPETERIGBOA1)
