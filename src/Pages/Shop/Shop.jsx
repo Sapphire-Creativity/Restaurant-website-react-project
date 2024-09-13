@@ -1,6 +1,6 @@
 import React from "react";
 import OtherHeader from "../../Components/OtherHeader/OtherHeader";
-import AboutImage from "../../assets/about-image.jpg";
+import ShopImage from "../../assets/shop.jpg";
 import Footer from "../../Components/Footer/Footer";
 import Copyright from "../../Components/Footer/Copyright";
 import { SlArrowDown } from "react-icons/sl";
@@ -24,7 +24,7 @@ const Shop = () => {
 		<>
 			<CustomCursor />;
 			<OtherHeader
-				backgroundImage={AboutImage}
+				backgroundImage={ShopImage}
 				title={"Shop"}
 				subTitle={"Fresh Flavors, Delivered to Your Doorstep!"}
 			/>

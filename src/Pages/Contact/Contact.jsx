@@ -1,6 +1,7 @@
 import React from "react";
 import OtherHeader from "../../Components/OtherHeader/OtherHeader";
-import AboutImage from "../../assets/about-image.jpg";
+import ContactImage from "../../Pages/Account/signin.jpg";
+
 import { FaPhone } from "react-icons/fa";
 import { HiPencilSquare } from "react-icons/hi2";
 import { IoMailOutline } from "react-icons/io5";
@@ -49,7 +50,7 @@ const Contact = () => {
 		<>
 			<CustomCursor />;
 			<OtherHeader
-				backgroundImage={AboutImage}
+				backgroundImage={ContactImage}
 				title={"Contact Us"}
 				subTitle={"Get in Touch for Fresh Flavors & Friendly Service!"}
 			/>
@@ -184,11 +185,8 @@ const Contact = () => {
 									SEND A MESSAGE <RiSendPlaneFill />
 								</button>
 							</div>
-							
 
 							<span>{result}</span>
-
-							
 						</form>
 					</div>
 				</div>

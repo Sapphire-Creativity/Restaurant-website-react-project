@@ -1,7 +1,7 @@
 .hero {
 	position: relative; /* Needed to position the pseudo-element */
 	background-size: cover;
-	background-position: top;
+	background-position: center;
 	background-repeat: no-repeat;
 
 	height: 500px; /* Adjust as needed */

@@ -22,10 +22,19 @@ const AboutSection = () => {
 					<h2 className="font-zcool-xiaowei text-4xl font-medium text-center lg:text-left">
 						About Our Story
 					</h2>
-					<p className="text-gray-700 my-4 text-center lg:text-left">
-						Indulge in a gourmet journey with menu that showcases a fusion of
-						flavor. Our chefs use the finest ingredients to create dishes that
-						are not just meals but unforgettable experiences.
+					<p className="text-gray-700 text-base my-4 text-left">
+						At <span className="font-zcool-xiaowei ">FoodVilla </span>, we don’t
+						just serve food — we tell a story with every dish. Our journey began
+						with a simple passion: to create a dining experience that celebrates
+						both tradition and innovation. Inspired by [family heritage, travel
+						experiences, or cultural influences], our founders set out to craft
+						a menu that blends classic flavors with modern culinary techniques.
+						Each recipe on our menu has its own unique story, from age-old
+						family recipes passed down through generations to bold, contemporary
+						dishes designed to push the boundaries of flavor. Our chefs draw
+						from their diverse experiences, infusing each meal with the richness
+						of global cultures while using locally sourced, seasonal
+						ingredients.
 					</p>
 
 					<div className="flex flex-col text-center items-center justify-between py-6 border-t-2 border-b-2 gap-8 sm:flex sm:text-left">

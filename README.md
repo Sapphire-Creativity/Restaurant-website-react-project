@@ -4,6 +4,9 @@
 ## 📖 Description
 A modern and fully responsive restaurant website built using React and Tailwind CSS, integrated with Firebase Authentication for user account management. The website features 8 beautiful pages that showcase the restaurant’s offerings and services. Users can create accounts, log in to a personalized dashboard, and send messages through the contact form. It provides a seamless experience across all devices.
 
+
+![](RESTAURANT%20WEBSITE.jpg)
+
 ## 📋 Table of Contents
 - [✨ Features](#-features)
 - [💻 Technologies Used](#-technologies-used)

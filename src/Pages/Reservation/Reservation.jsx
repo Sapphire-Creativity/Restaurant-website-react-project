@@ -1,6 +1,6 @@
 import React from "react";
 import OtherHeader from "../../Components/OtherHeader/OtherHeader";
-import AboutImage from "../../assets/about-image.jpg";
+import ReservationImage from "../../assets/reservation.jpg";
 import TitleHeader from "../../Components/TitleHeader";
 import { FaPhone, FaCalendarAlt } from "react-icons/fa";
 import { HiPencilSquare } from "react-icons/hi2";
@@ -19,7 +19,7 @@ const Reservation = () => {
 		<>
 			<CustomCursor />;
 			<OtherHeader
-				backgroundImage={AboutImage}
+				backgroundImage={ReservationImage}
 				title={"Reservation"}
 				subTitle={"Reserve Your Table, Savor the Experience."}
 			/>
