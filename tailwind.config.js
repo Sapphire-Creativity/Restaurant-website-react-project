@@ -9,8 +9,8 @@ module.exports = {
 				poppins: ['"Poppins"', "sans-serif"],
 			},
 			colors: {
-				primary: "#FA8507",
-				lightPrimary: "#fffcf0",
+				primary: "#ff9524",
+				lightPrimary: "#fffae5",
 				secondary: "#000000",
 				backgroundColor: "#F8F8F8",
 			},
@@ -25,7 +25,7 @@ module.exports = {
 				},
 			},
 			fontSize: {
-				"BigFont": "20rem", // Custom font size
+				BigFont: "20rem", // Custom font size
 			},
 		},
 	},
