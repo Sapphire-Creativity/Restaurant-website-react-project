@@ -75,9 +75,9 @@ const Shop = () => {
 				</div>
 			</section>
 			<section className="container bg-gray-50">
-				<div className="py-10">
+				<div className="">
 					<div className="flex flex-col gap-5 justify-between items-center p-2 sm:flex sm:flex-row sm:gap-0">
-						<h3 className="text-base">Special Offer</h3>
+						<h3 className="text-3xl font-zcool-xiaowei">Special Offer</h3>
 					</div>
 
 					{/* Food Carousel */}

@@ -34,7 +34,7 @@ const about = () => {
 			/>
 			<section className="container bg-gray-50">
 				<TitleHeader title={"Our Restuarant Services"}>
-					<h2 className="text-3xl md:text-4xl font-zcool-xiaowei">
+					<h2 className="text-3xl md:text-4xl  text-center font-zcool-xiaowei">
 						Our Commitment to Excellence
 					</h2>
 				</TitleHeader>

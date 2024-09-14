@@ -12,45 +12,45 @@ const CustomBrands = () => {
 	return (
 		<section className="container mx-auto px-4">
 			<TitleHeader title={"Trusted Brands"}>
-				<h2 className="text-4xl text-gray-700 font-zcool-xiaowei">
+				<h2 className="text-2xl md:text-4xl text-center text-gray-700 font-zcool-xiaowei">
 					10000+ Brands Trust Us
 				</h2>
 			</TitleHeader>
-			<div className="flex flex-wrap items-center justify-center py-10 gap-5 md:gap-10">
+			<div className="flex flex-wrap items-center justify-center py-10  gap-3 sm:gap-5 md:gap-10">
 				<img
 					src={ImageOne}
 					alt="Brand 1"
-					className="w-24 h-24 sm:w-40 sm:h-40 grayscale opacity-70 transition duration-800 hover:grayscale-0 hover:opacity-100"
+					className="w-16 h-16  sm:w-40 sm:h-40 grayscale opacity-70 transition duration-800 hover:grayscale-0 hover:opacity-100"
 				/>
 				<img
 					src={ImageTwo}
 					alt="Brand 2"
-					className="w-24 h-24 sm:w-40 sm:h-40 grayscale opacity-70 transition duration-800 hover:grayscale-0 hover:opacity-100"
+					className="w-16 h-16 sm:w-40 sm:h-40 grayscale opacity-70 transition duration-800 hover:grayscale-0 hover:opacity-100"
 				/>
 				<img
 					src={ImageThree}
 					alt="Brand 3"
-					className="w-24 h-24 sm:w-40 sm:h-40 grayscale opacity-70 transition duration-800 hover:grayscale-0 hover:opacity-100"
+					className="w-16 h-16  sm:w-40 sm:h-40 grayscale opacity-70 transition duration-800 hover:grayscale-0 hover:opacity-100"
 				/>
 				<img
 					src={ImageFour}
 					alt="Brand 4"
-					className="w-24 h-24 sm:w-40 sm:h-40 grayscale opacity-70 transition duration-800 hover:grayscale-0 hover:opacity-100"
+					className="w-16 h-16  sm:w-40 sm:h-40 grayscale opacity-70 transition duration-800 hover:grayscale-0 hover:opacity-100"
 				/>
 				<img
 					src={ImageFive}
 					alt="Brand 5"
-					className="w-24 h-24 sm:w-40 sm:h-40 grayscale opacity-70 transition duration-800 hover:grayscale-0 hover:opacity-100"
+					className="w-16 h-16  sm:w-40 sm:h-40 grayscale opacity-70 transition duration-800 hover:grayscale-0 hover:opacity-100"
 				/>
 				<img
 					src={ImageSix}
 					alt="Brand 6"
-					className="w-24 h-24 sm:w-40 sm:h-40 grayscale opacity-70 transition duration-800 hover:grayscale-0 hover:opacity-100"
+					className="w-16 h-16  sm:w-40 sm:h-40 grayscale opacity-70 transition duration-800 hover:grayscale-0 hover:opacity-100"
 				/>
 				<img
 					src={ImageSeven}
 					alt="Brand 7"
-					className="w-24 h-24 sm:w-40 sm:h-40 grayscale opacity-70 transition duration-800 hover:grayscale-0 hover:opacity-100"
+					className="w-16 h-16  sm:w-40 sm:h-40 grayscale opacity-70 transition duration-800 hover:grayscale-0 hover:opacity-100"
 				/>
 			</div>
 		</section>

@@ -44,7 +44,7 @@ const Navbar = () => {
 						</ul>
 					</div>
 
-					<div className="flex gap-10 items-center">
+					<div className="flex gap-2 sm:gap-10 items-center">
 						{/* Icons section */}
 
 						<div className="flex items-center justify-between gap-5">
@@ -64,16 +64,15 @@ const Navbar = () => {
 								{isNavShowing ? <MdOutlineClose /> : <RiMenu5Line />}
 							</button>
 						</div>
-						<div>
-							{/* Button section */}
-							<a
-								href="/reservation"
-								target="_blank"
-								rel="noopener noreferrer"
-								className="primary-btn hidden md:inline-flex">
-								BOOK A TABLE <RiSendPlaneFill />
-							</a>
-						</div>
+
+						{/* Button section */}
+						<a
+							href="/reservation"
+							target="_blank"
+							rel="noopener noreferrer"
+							className="primary-btn hidden md:inline-flex">
+							BOOK A TABLE <RiSendPlaneFill />
+						</a>
 					</div>
 				</div>
 			</nav>

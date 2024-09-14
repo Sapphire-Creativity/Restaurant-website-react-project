@@ -19,11 +19,11 @@ const Chef = () => {
 		<section className="container">
 			<div className="chef-container">
 				<TitleHeader title={"Our Chef"}>
-					<h2 className="font-zcool-xiaowei text-4xl">
+					<h2 className="font-zcool-xiaowei text-4xl text-center">
 						Meet Our Professional Chefs
 					</h2>
 				</TitleHeader>
-				<div className="chef-team ">
+				<div className="mt-16">
 					<Swiper
 						slidesPerView={4}
 						spaceBetween={30}
@@ -34,14 +34,14 @@ const Chef = () => {
 						loop={true} // Infinite loop
 						modules={[Autoplay]}
 						breakpoints={{
-							1200: {
+							1300: {
 								slidesPerView: 4, // 2 slides for desktop
 							},
-							1000: {
+							1250: {
 								slidesPerView: 3, // 2 slides for tablets
 							},
 
-							900: {
+							768: {
 								slidesPerView: 2, // 2 slides for tablets
 							},
 
@@ -70,7 +70,7 @@ const Chef = () => {
 								</div>
 
 								<div className="chef-details">
-									<h3 className="font-zcool-xiaowei text-2xl">{name}</h3>
+									<h3 className="font-zcool-xiaowei text-3xl">{name}</h3>
 									<p className="text-primary font-medium">{role}</p>
 								</div>
 							</SwiperSlide>

@@ -46,14 +46,14 @@
 
 	@media screen and (max-width: 768px) {
 		.primary-btn {
-			padding: 1rem 1.2rem;
-			font-size: 0.75rem;
+			padding: 1.2rem;
+			font-size: 0.9rem;
 		}
 	}
 	@media screen and (max-width: 600px) {
 		.primary-btn {
-			padding: 0.8rem 1rem;
-			font-size: 0.6rem;
+			padding: 1rem;
+			font-size: 0.8rem;
 		}
 	}
 }
@@ -63,7 +63,7 @@
 		filter: drop-shadow(-6px 10px 12px rgba(0, 0, 0, 0.053));
 	}
 	.drop-shadow-two {
-		filter: drop-shadow(-6px 10px 12px rgba(0, 0, 0, 0.120));
+		filter: drop-shadow(-6px 10px 12px rgba(0, 0, 0, 0.12));
 	}
 	.drop-shadow-three {
 		filter: drop-shadow(0px 10px 15px rgba(0, 0, 0, 0.075));
@@ -79,7 +79,7 @@ p {
 	font-size: 0.8rem;
 }
 section {
-	padding: 5rem 0;
+	padding: 3rem 0;
 }
 
 .swiper-pagination-bullet {

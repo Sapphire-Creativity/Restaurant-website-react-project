@@ -18,12 +18,6 @@ section.footer-container {
 	width: 3rem;
 	cursor: pointer;
 }
-.section-one p {
-	font-size: 0.9rem;
-	margin: 1.4rem 0;
-	color: #efefef;
-	max-width: 60rem;
-}
 
 .section-one .socials-icon {
 	display: flex;

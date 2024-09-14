@@ -6,50 +6,69 @@ import { FaPeopleRoof } from "react-icons/fa6";
 import { FaAward } from "react-icons/fa6";
 const Counter = () => {
 	return (
-		<div className="flex flex-wrap justify-center gap-3 bg-gray-100 py-8 px-2 drop-shadow lg:gap-5 items-start">
-			<div className="flex items-center text-center gap-5 m-2 cursor-pointer">
-				<div className="text-2xl bg-primary p-3 rounded-full lg:p-4 lg:text-4xl">
+		<div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 justify-center gap-2 sm:gap-4 lg:gap-5 bg-gray-100 py-8 px-4 drop-shadow items-start">
+			{/* First item */}
+			<div className="flex flex-col sm:flex-row items-center text-center gap-3 sm:gap-5 m-2 cursor-pointer">
+				<div className="text-xl sm:text-2xl bg-primary p-3 rounded-full lg:p-4 lg:text-4xl">
 					<LiaClipboardListSolid className="text-white" />
 				</div>
-				<div className="gap-5">
-					<h2 className="font-zcool-xiaowei text-3xl lg:text-4xl">2.8k</h2>
-					<p className="text-gray-700">Our Daily Order</p>
+				<div className="flex flex-col gap-1">
+					<h2 className="font-zcool-xiaowei text-2xl sm:text-3xl lg:text-4xl">
+						2.8k
+					</h2>
+					<p className="text-gray-700 text-sm sm:text-base">Our Daily Order</p>
 				</div>
 			</div>
-			<div className="flex items-center gap-5 m-2 cursor-pointer">
-				<div className="text-2xl bg-primary p-3 rounded-full lg:p-4 lg:text-4xl">
+
+			{/* Second item */}
+			<div className="flex flex-col sm:flex-row items-center text-center gap-3 sm:gap-5 m-2 cursor-pointer">
+				<div className="text-xl sm:text-2xl bg-primary p-3 rounded-full lg:p-4 lg:text-4xl">
 					<SiCodechef className="text-white" />
 				</div>
-				<div className="gap-5">
-					<h2 className="font-zcool-xiaowei text-3xl lg:text-4xl">28</h2>
-					<p className="text-gray-700">Specialist Chef</p>
+				<div className="flex flex-col gap-1">
+					<h2 className="font-zcool-xiaowei text-2xl sm:text-3xl lg:text-4xl">
+						28
+					</h2>
+					<p className="text-gray-700 text-sm sm:text-base">Specialist Chef</p>
 				</div>
 			</div>
-			<div className="flex items-center gap-5 m-2 cursor-pointer">
-				<div className="text-2xl bg-primary p-3 rounded-full lg:p-4 lg:text-4xl">
+
+			{/* Third item */}
+			<div className="flex flex-col sm:flex-row items-center text-center gap-3 sm:gap-5 m-2 cursor-pointer">
+				<div className="text-xl sm:text-2xl bg-primary p-3 rounded-full lg:p-4 lg:text-4xl">
 					<PiBowlSteamFill className="text-white" />
 				</div>
-				<div className="gap-5">
-					<h2 className="font-zcool-xiaowei text-3xl lg:text-4xl">139</h2>
-					<p className="text-gray-700">Our Menu & Dish</p>
+				<div className="flex flex-col gap-1">
+					<h2 className="font-zcool-xiaowei text-2xl sm:text-3xl lg:text-4xl">
+						139
+					</h2>
+					<p className="text-gray-700 text-sm sm:text-base">Our Menu & Dish</p>
 				</div>
 			</div>
-			<div className="flex items-center gap-5 m-2 cursor-pointer">
-				<div className="text-2xl bg-primary p-3 rounded-full lg:p-4 lg:text-4xl">
+
+			{/* Fourth item */}
+			<div className="flex flex-col sm:flex-row items-center text-center gap-3 sm:gap-5 m-2 cursor-pointer">
+				<div className="text-xl sm:text-2xl bg-primary p-3 rounded-full lg:p-4 lg:text-4xl">
 					<FaPeopleRoof className="text-white" />
 				</div>
-				<div className="gap-5">
-					<h2 className="font-zcool-xiaowei text-3xl lg:text-4xl">99</h2>
-					<p className="text-gray-700">Our Members</p>
+				<div className="flex flex-col gap-1">
+					<h2 className="font-zcool-xiaowei text-2xl sm:text-3xl lg:text-4xl">
+						99
+					</h2>
+					<p className="text-gray-700 text-sm sm:text-base">Our Members</p>
 				</div>
 			</div>
-			<div className="flex items-center gap-5 m-2 cursor-pointer">
-				<div className="text-2xl bg-primary p-3 rounded-full lg:p-4 lg:text-4xl">
+
+			{/* Fifth item */}
+			<div className="flex flex-col sm:flex-row items-center text-center gap-3 sm:gap-5 m-2 cursor-pointer">
+				<div className="text-xl sm:text-2xl bg-primary p-3 rounded-full lg:p-4 lg:text-4xl">
 					<FaAward className="text-white" />
 				</div>
-				<div className="gap-5">
-					<h2 className="font-zcool-xiaowei text-3xl lg:text-4xl">39</h2>
-					<p className="text-gray-700">Won the Awards</p>
+				<div className="flex flex-col gap-1">
+					<h2 className="font-zcool-xiaowei text-2xl sm:text-3xl lg:text-4xl">
+						39
+					</h2>
+					<p className="text-gray-700 text-sm sm:text-base">Won the Awards</p>
 				</div>
 			</div>
 		</div>

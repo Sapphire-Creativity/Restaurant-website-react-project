@@ -15,14 +15,16 @@ const Footer = () => {
 		<section className="footer-container bg-black">
 			<div className="inner-footer-container">
 				<div className="section-one">
-					<Link to="/" className="text-3xl flex items-center gap-1">
-						<PiBowlFoodFill className="text-primary" />
-						<p className="font-zcool-xiaowei text-3xl">
-							Food<span className="text-primary font-semibold">Villa</span>{" "}
-						</p>
-					</Link>
+					<div>
+						<Link to="/" className="text-4xl flex items-center gap-1">
+							<PiBowlFoodFill className="text-primary" />
+							<p className="font-zcool-xiaowei text-3xl text-white">
+								Food<span className="text-primary font-semibold">Villa</span>{" "}
+							</p>
+						</Link>
+					</div>
 
-					<p>
+					<p className="text-gray-100 my-5">
 						We believe that great food shouldn't break the bank. That's why we
 						offer affordable options without compromising on taste.
 					</p>

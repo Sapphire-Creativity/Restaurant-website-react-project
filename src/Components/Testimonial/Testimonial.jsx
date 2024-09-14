@@ -18,7 +18,7 @@ const Testimonial = () => {
 					</h2>
 				</TitleHeader>
 
-				<div className="py-20">
+				<div className="py-16">
 					<Swiper
 						slidesPerView={2}
 						spaceBetween={30}
@@ -43,7 +43,7 @@ const Testimonial = () => {
 						{testimonials.map((testimonial) => (
 							<SwiperSlide
 								key={testimonial.id}
-								className="testimonial-card flex flex-col relative items-center justify-start gap-3 px-4 py-4 rounded-md bg-white drop-shadow mb-20">
+								className="testimonial-card flex flex-col relative items-center justify-start gap-3 px-4 py-4 rounded-md bg-white drop-shadow">
 								{/* Image container */}
 								<div className="w-24 h-24 flex items-center justify-center m-auto rounded-full border-4 border-white shadow-lg  ">
 									<img

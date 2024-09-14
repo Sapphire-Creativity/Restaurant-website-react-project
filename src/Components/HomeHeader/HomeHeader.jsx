@@ -9,11 +9,11 @@ const HomeHeader = () => {
 				<h2 className="font-great-vibes text-primary text-2xl">
 					Discover the Taste of Freshness
 				</h2>
-				<h1 className="text-white text-5xl font-medium font-zcool-xiaowei leading-normal uppercase md:text-7xl">
+				<h1 className="text-white text-4xl leading-tight sm:text-5xl font-medium font-zcool-xiaowei sm:leading-normal uppercase md:text-7xl">
 					Indulge in a Culinary Journey
 				</h1>
 
-				<p className="text-gray-50 my-2 md:max-w-[600px]">
+				<p className="text-gray-50 text-xs sm:text-base my-2 md:max-w-[500px]">
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat cum
 					distinctio ex exercitationem sed ad sapiente eius.
 				</p>
